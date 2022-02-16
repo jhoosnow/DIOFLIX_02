@@ -1,9 +1,6 @@
-﻿using System;
+//ESTOU UTILIZANDO A VERSÃO ATUAL
 
-namespace DIO.Series
-{
-    class Program
-    {
+
         static SerieRepositorio repositorio = new SerieRepositorio();
         static void Main(string[] args)
         {
@@ -162,5 +159,4 @@ namespace DIO.Series
 			Console.WriteLine();
 			return opcaoUsuario;
 		}
-    }
-}
+
